@@ -1,3 +1,4 @@
 export function startup(): string {
-    return "Startup!";
+    console.log("console.log(): startup");
+    return "return startup";
 }
